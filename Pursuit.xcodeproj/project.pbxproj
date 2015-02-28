@@ -37,6 +37,7 @@
 		68BD0B7E1AA267E1002B0425 /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BD0B7B1AA267E1002B0425 /* checkbox-checked.png */; };
 		68BD0B7F1AA267E1002B0425 /* checkbox-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BD0B7C1AA267E1002B0425 /* checkbox-pressed.png */; };
 		68BD0B801AA267E1002B0425 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BD0B7D1AA267E1002B0425 /* checkbox.png */; };
+		68BD0B831AA2768F002B0425 /* SignupControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0B821AA2768F002B0425 /* SignupControllerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,8 @@
 		68BD0B7B1AA267E1002B0425 /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
 		68BD0B7C1AA267E1002B0425 /* checkbox-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-pressed.png"; sourceTree = "<group>"; };
 		68BD0B7D1AA267E1002B0425 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		68BD0B811AA2767B002B0425 /* SignupControllerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignupControllerView.h; sourceTree = "<group>"; };
+		68BD0B821AA2768F002B0425 /* SignupControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupControllerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +131,6 @@
 		68BD0B2B1AA24AC7002B0425 = {
 			isa = PBXGroup;
 			children = (
-				5EBC73DE1AA2738800BA8D29 /* MapKit.framework */,
 				68BD0B361AA24AC7002B0425 /* Pursuit */,
 				68BD0B531AA24AC7002B0425 /* PursuitTests */,
 				68BD0B351AA24AC7002B0425 /* Products */,
@@ -153,6 +155,8 @@
 				68BD0B3C1AA24AC7002B0425 /* AppDelegate.m */,
 				68BD0B411AA24AC7002B0425 /* LoginControllerView.h */,
 				68BD0B421AA24AC7002B0425 /* LoginControllerView.m */,
+				68BD0B811AA2767B002B0425 /* SignupControllerView.h */,
+				68BD0B821AA2768F002B0425 /* SignupControllerView.m */,
 				68BD0B441AA24AC7002B0425 /* Main.storyboard */,
 				68BD0B471AA24AC7002B0425 /* Images.xcassets */,
 				68BD0B491AA24AC7002B0425 /* LaunchScreen.xib */,
@@ -170,6 +174,7 @@
 				68BD0B761AA25D15002B0425 /* libz.dylib */,
 				5EBC73D11AA2613000BA8D29 /* libicucore.dylib */,
 				5EBC73CF1AA2612800BA8D29 /* libc++.dylib */,
+				5EBC73DE1AA2738800BA8D29 /* MapKit.framework */,
 				5EBC73CD1AA2611A00BA8D29 /* ImageIO.framework */,
 				5EBC73C51AA260CD00BA8D29 /* AVFoundation.framework */,
 				68BD0B741AA25D0C002B0425 /* SystemConfiguration.framework */,
@@ -319,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BD0B831AA2768F002B0425 /* SignupControllerView.m in Sources */,
 				68BD0B401AA24AC7002B0425 /* Pursuit.xcdatamodeld in Sources */,
 				68BD0B3D1AA24AC7002B0425 /* AppDelegate.m in Sources */,
 				68BD0B431AA24AC7002B0425 /* LoginControllerView.m in Sources */,

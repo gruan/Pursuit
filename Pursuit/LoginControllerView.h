@@ -8,16 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LogControllerView : UIViewController <UITextFieldDelegate>
+@interface LogControllerView : UIViewController <UITextFieldDelegate,UIActionSheetDelegate>
 {
-    BOOL checkboxSelected;
-    IBOutlet UIButton *checkboxButton;
 }
 @property (weak, nonatomic) IBOutlet UITextField *txtUsername;
 @property (weak, nonatomic) IBOutlet UITextField *txtPassword;
+- (IBAction)signup:(id)sender;
 - (IBAction)backgroudtap:(id)sender;
 -(IBAction)signinClicked:(id)sender;
-- (IBAction)checkboxButton:(id)sender;
+- (IBAction)standardUIActionSheetPressed:(id)sender;
+
 
 @end
 

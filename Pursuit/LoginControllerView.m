@@ -7,6 +7,7 @@
 //
 
 #import "LoginControllerView.h"
+#import "SignupControllerView.h"
 @interface LogControllerView()
 
 @end
@@ -14,25 +15,38 @@
 @implementation LogControllerView
 
 - (void)viewDidLoad {
-    checkboxSelected = 0;
 
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (IBAction)checkboxButton:(id)sender{
-    if (checkboxSelected == 0){
-        [checkboxButton setSelected:YES];
-        checkboxSelected = 1;
-    } else {
-        [checkboxButton setSelected:NO];
-        checkboxSelected = 0;
+- (IBAction)standardUIActionSheetPressed:(id)sender {
+    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Recutitor",@"Purite", nil];
+    [actionSheet showInView:self.view];
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if(buttonIndex==0)
+    {
+        NSLog(@"rec");
+    }
+    else if(buttonIndex==1)
+    {
+        NSLog(@"pur");
+    }else{
     }
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)signup:(id)sender {
+    SignupControllerView *signup = [[SignupControllerView alloc] init];
+    [self presentViewController:signup animated:YES completion:NULL];
+
 }
 - (IBAction)backgroudtap:(id)sender {
     [self.view endEditing:YES];
@@ -42,17 +56,6 @@
 {
 
     
-    
-}
-- (void) alertStatus:(NSString *)msg :(NSString *)title :(int) tag
-{
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title
-                                                        message:msg
-                                                       delegate:self
-                                              cancelButtonTitle:@"Ok"
-                                              otherButtonTitles:nil, nil];
-    alertView.tag = tag;
-    [alertView show];
 }
 
 -(BOOL)textFieldShowReturn:(UITextField *)textfield
