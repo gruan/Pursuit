@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>FDD6CFAC-E3AC-42B3-9521-71E0ABA50F94</string>
+	<string>DB10A600-B96D-46E3-91AC-2D2A423D4233</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Pursuit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>DBB7E8E963C538F7F2E8C9C25EC040E61C294112</key>
-		<string>github.com:gruan/Pursuit.git</string>
+		<string>https://github.com/gruan/Pursuit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Pursuit.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:gruan/Pursuit.git</string>
+	<string>https://github.com/gruan/Pursuit.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

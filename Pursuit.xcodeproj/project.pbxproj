@@ -38,6 +38,9 @@
 		68BD0B751AA25D0C002B0425 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BD0B741AA25D0C002B0425 /* SystemConfiguration.framework */; };
 		68BD0B771AA25D15002B0425 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BD0B761AA25D15002B0425 /* libz.dylib */; };
 		68BD0B791AA25D20002B0425 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BD0B781AA25D20002B0425 /* libsqlite3.dylib */; };
+		68BD0B7E1AA267E1002B0425 /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BD0B7B1AA267E1002B0425 /* checkbox-checked.png */; };
+		68BD0B7F1AA267E1002B0425 /* checkbox-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BD0B7C1AA267E1002B0425 /* checkbox-pressed.png */; };
+		68BD0B801AA267E1002B0425 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BD0B7D1AA267E1002B0425 /* checkbox.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +91,9 @@
 		68BD0B741AA25D0C002B0425 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		68BD0B761AA25D15002B0425 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		68BD0B781AA25D20002B0425 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		68BD0B7B1AA267E1002B0425 /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
+		68BD0B7C1AA267E1002B0425 /* checkbox-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-pressed.png"; sourceTree = "<group>"; };
+		68BD0B7D1AA267E1002B0425 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 				68BD0B471AA24AC7002B0425 /* Images.xcassets */,
 				68BD0B491AA24AC7002B0425 /* LaunchScreen.xib */,
 				68BD0B3E1AA24AC7002B0425 /* Pursuit.xcdatamodeld */,
+				68BD0B7A1AA267CA002B0425 /* Image */,
 				68BD0B371AA24AC7002B0425 /* Supporting Files */,
 			);
 			path = Pursuit;
@@ -167,18 +174,18 @@
 		68BD0B371AA24AC7002B0425 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68BD0B781AA25D20002B0425 /* libsqlite3.dylib */,
+				68BD0B761AA25D15002B0425 /* libz.dylib */,
+				5EBC73D11AA2613000BA8D29 /* libicucore.dylib */,
+				5EBC73CF1AA2612800BA8D29 /* libc++.dylib */,
 				5EBC73D91AA2638700BA8D29 /* GoogleMaps.bundle */,
 				5EBC73D71AA2637600BA8D29 /* GoogleMaps.framework */,
 				5EBC73D31AA2613C00BA8D29 /* OpenGLES.framework */,
-				5EBC73D11AA2613000BA8D29 /* libicucore.dylib */,
-				5EBC73CF1AA2612800BA8D29 /* libc++.dylib */,
 				5EBC73CD1AA2611A00BA8D29 /* ImageIO.framework */,
 				5EBC73CB1AA2611100BA8D29 /* GLKit.framework */,
 				5EBC73C91AA2610800BA8D29 /* CoreText.framework */,
 				5EBC73C71AA260F900BA8D29 /* CoreData.framework */,
 				5EBC73C51AA260CD00BA8D29 /* AVFoundation.framework */,
-				68BD0B781AA25D20002B0425 /* libsqlite3.dylib */,
-				68BD0B761AA25D15002B0425 /* libz.dylib */,
 				68BD0B741AA25D0C002B0425 /* SystemConfiguration.framework */,
 				68BD0B721AA25CFF002B0425 /* StoreKit.framework */,
 				68BD0B701AA25CF6002B0425 /* Security.framework */,
@@ -211,6 +218,16 @@
 				68BD0B551AA24AC7002B0425 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68BD0B7A1AA267CA002B0425 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				68BD0B7B1AA267E1002B0425 /* checkbox-checked.png */,
+				68BD0B7C1AA267E1002B0425 /* checkbox-pressed.png */,
+				68BD0B7D1AA267E1002B0425 /* checkbox.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,8 +312,11 @@
 			files = (
 				68BD0B461AA24AC7002B0425 /* Main.storyboard in Resources */,
 				68BD0B4B1AA24AC7002B0425 /* LaunchScreen.xib in Resources */,
+				68BD0B7E1AA267E1002B0425 /* checkbox-checked.png in Resources */,
 				68BD0B481AA24AC7002B0425 /* Images.xcassets in Resources */,
 				5EBC73DA1AA2638700BA8D29 /* GoogleMaps.bundle in Resources */,
+				68BD0B7F1AA267E1002B0425 /* checkbox-pressed.png in Resources */,
+				68BD0B801AA267E1002B0425 /* checkbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +416,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -430,6 +451,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -446,7 +468,7 @@
 				);
 				INFOPLIST_FILE = Pursuit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -462,7 +484,7 @@
 				);
 				INFOPLIST_FILE = Pursuit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
