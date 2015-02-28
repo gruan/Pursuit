@@ -13,7 +13,6 @@
 }
 @property (weak, nonatomic) IBOutlet UITextField *txtUsername;
 @property (weak, nonatomic) IBOutlet UITextField *txtPassword;
-- (IBAction)signup:(id)sender;
 - (IBAction)backgroudtap:(id)sender;
 -(IBAction)signinClicked:(id)sender;
 - (IBAction)standardUIActionSheetPressed:(id)sender;

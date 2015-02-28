@@ -14,5 +14,15 @@
 {
     
 }
+@property (weak, nonatomic) IBOutlet UITextField *username;
+@property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UITextField *firstname;
+@property (weak, nonatomic) IBOutlet UITextField *lastname;
+- (IBAction)Done:(id)sender;
+- (IBAction)Cancel:(id)sender;
+
+
+
+
 @end
 #endif

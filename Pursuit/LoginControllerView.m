@@ -5,7 +5,7 @@
 //  Created by James Lee on 2/28/15.
 //  Copyright (c) 2015 TeamGeorgie. All rights reserved.
 //
-
+#import <Parse/Parse.h>
 #import "LoginControllerView.h"
 #import "SignupControllerView.h"
 @interface LogControllerView()
@@ -13,7 +13,7 @@
 @end
 
 @implementation LogControllerView
-
+@synthesize txtPassword,txtUsername;
 - (void)viewDidLoad {
 
     [super viewDidLoad];
@@ -43,19 +43,23 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)signup:(id)sender {
-    SignupControllerView *signup = [[SignupControllerView alloc] init];
-    [self presentViewController:signup animated:YES completion:NULL];
-
-}
 - (IBAction)backgroudtap:(id)sender {
     [self.view endEditing:YES];
 }
 
 -(IBAction)signinClicked:(id)sender
 {
+    [PFUser logInWithUsernameInBackground:txtUsername.text password:txtPassword.text
+                                    block:^(PFUser *user, NSError *error) {
+                                        if (user) {
+                                            [self performSegueWithIdentifier:@"login_success" sender:self];
+                                            NSLog(@"Successful");
 
-    
+                                        } else {
+                                            NSLog(@"FAILED");
+                                            // The login failed. Check error to see why.
+                                        }
+                                    }];
 }
 
 -(BOOL)textFieldShowReturn:(UITextField *)textfield

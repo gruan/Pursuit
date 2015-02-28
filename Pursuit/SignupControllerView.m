@@ -13,19 +13,27 @@
 @end
 
 @implementation SignupControllerView
+@synthesize username,password,firstname,lastname;
 - (void)viewDidLoad {
-    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-- (void)singup {
-    PFUser *user = [PFUser user];
-    user.username = @"my name";
-    user.password = @"my pass";
-    user.email = @"email@example.com";
+- (IBAction)Done:(id)sender {
+    [self SignUpPursuit];
+    [self dismissViewControllerAnimated:YES completion:NULL];
     
+}
+- (IBAction)Cancel:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:NULL];
+    
+}
+- (void)SignUpPursuit {
+    PFUser *user = [PFUser user];
+    user.username = username.text;
+    user.password = password.text;
     // other fields can be set just like with PFObject
-    user[@"phone"] = @"415-392-0202";
+    user[@"Firstname"] = firstname.text;
+    user[@"Lastname"] = lastname.text;
     
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
