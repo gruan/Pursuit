@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EBC73C21AA2609200BA8D29 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73C11AA2609200BA8D29 /* GoogleMaps.framework */; };
+		5EBC73C41AA260A900BA8D29 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5EBC73C31AA260A900BA8D29 /* GoogleMaps.bundle */; };
+		5EBC73C61AA260CD00BA8D29 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73C51AA260CD00BA8D29 /* AVFoundation.framework */; };
+		5EBC73C81AA260F900BA8D29 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73C71AA260F900BA8D29 /* CoreData.framework */; };
+		5EBC73CA1AA2610800BA8D29 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73C91AA2610800BA8D29 /* CoreText.framework */; };
+		5EBC73CC1AA2611100BA8D29 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73CB1AA2611100BA8D29 /* GLKit.framework */; };
+		5EBC73CE1AA2611A00BA8D29 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73CD1AA2611A00BA8D29 /* ImageIO.framework */; };
+		5EBC73D01AA2612800BA8D29 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73CF1AA2612800BA8D29 /* libc++.dylib */; };
+		5EBC73D21AA2613000BA8D29 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73D11AA2613000BA8D29 /* libicucore.dylib */; };
+		5EBC73D41AA2613C00BA8D29 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73D31AA2613C00BA8D29 /* OpenGLES.framework */; };
 		68BD0B3A1AA24AC7002B0425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0B391AA24AC7002B0425 /* main.m */; };
 		68BD0B3D1AA24AC7002B0425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0B3C1AA24AC7002B0425 /* AppDelegate.m */; };
 		68BD0B401AA24AC7002B0425 /* Pursuit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0B3E1AA24AC7002B0425 /* Pursuit.xcdatamodeld */; };
@@ -41,6 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EBC73C11AA2609200BA8D29 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		5EBC73C31AA260A900BA8D29 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../GoogleMaps-iOS-1.9.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		5EBC73C51AA260CD00BA8D29 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5EBC73C71AA260F900BA8D29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5EBC73C91AA2610800BA8D29 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		5EBC73CB1AA2611100BA8D29 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		5EBC73CD1AA2611A00BA8D29 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		5EBC73CF1AA2612800BA8D29 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		5EBC73D11AA2613000BA8D29 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		5EBC73D31AA2613C00BA8D29 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		68BD0B341AA24AC7002B0425 /* Pursuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pursuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BD0B381AA24AC7002B0425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68BD0B391AA24AC7002B0425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,14 +95,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68BD0B791AA25D20002B0425 /* libsqlite3.dylib in Frameworks */,
+				5EBC73D41AA2613C00BA8D29 /* OpenGLES.framework in Frameworks */,
 				68BD0B771AA25D15002B0425 /* libz.dylib in Frameworks */,
+				5EBC73D21AA2613000BA8D29 /* libicucore.dylib in Frameworks */,
+				5EBC73D01AA2612800BA8D29 /* libc++.dylib in Frameworks */,
+				5EBC73CE1AA2611A00BA8D29 /* ImageIO.framework in Frameworks */,
+				5EBC73CC1AA2611100BA8D29 /* GLKit.framework in Frameworks */,
+				5EBC73CA1AA2610800BA8D29 /* CoreText.framework in Frameworks */,
+				5EBC73C81AA260F900BA8D29 /* CoreData.framework in Frameworks */,
+				5EBC73C61AA260CD00BA8D29 /* AVFoundation.framework in Frameworks */,
+				68BD0B791AA25D20002B0425 /* libsqlite3.dylib in Frameworks */,
 				68BD0B751AA25D0C002B0425 /* SystemConfiguration.framework in Frameworks */,
 				68BD0B731AA25CFF002B0425 /* StoreKit.framework in Frameworks */,
 				68BD0B711AA25CF6002B0425 /* Security.framework in Frameworks */,
 				68BD0B6F1AA25CEF002B0425 /* QuartzCore.framework in Frameworks */,
 				68BD0B6D1AA25CE5002B0425 /* MobileCoreServices.framework in Frameworks */,
 				68BD0B6B1AA25CDB002B0425 /* CoreLocation.framework in Frameworks */,
+				5EBC73C21AA2609200BA8D29 /* GoogleMaps.framework in Frameworks */,
 				68BD0B691AA25CD2002B0425 /* CoreGraphics.framework in Frameworks */,
 				68BD0B671AA25CCA002B0425 /* CFNetwork.framework in Frameworks */,
 				68BD0B651AA25CC3002B0425 /* AudioToolbox.framework in Frameworks */,
@@ -104,6 +133,14 @@
 		68BD0B2B1AA24AC7002B0425 = {
 			isa = PBXGroup;
 			children = (
+				5EBC73D31AA2613C00BA8D29 /* OpenGLES.framework */,
+				5EBC73D11AA2613000BA8D29 /* libicucore.dylib */,
+				5EBC73CF1AA2612800BA8D29 /* libc++.dylib */,
+				5EBC73CD1AA2611A00BA8D29 /* ImageIO.framework */,
+				5EBC73CB1AA2611100BA8D29 /* GLKit.framework */,
+				5EBC73C91AA2610800BA8D29 /* CoreText.framework */,
+				5EBC73C71AA260F900BA8D29 /* CoreData.framework */,
+				5EBC73C51AA260CD00BA8D29 /* AVFoundation.framework */,
 				68BD0B361AA24AC7002B0425 /* Pursuit */,
 				68BD0B531AA24AC7002B0425 /* PursuitTests */,
 				68BD0B351AA24AC7002B0425 /* Products */,
@@ -138,6 +175,8 @@
 		68BD0B371AA24AC7002B0425 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5EBC73C31AA260A900BA8D29 /* GoogleMaps.bundle */,
+				5EBC73C11AA2609200BA8D29 /* GoogleMaps.framework */,
 				68BD0B781AA25D20002B0425 /* libsqlite3.dylib */,
 				68BD0B761AA25D15002B0425 /* libz.dylib */,
 				68BD0B741AA25D0C002B0425 /* SystemConfiguration.framework */,
@@ -257,6 +296,7 @@
 				68BD0B461AA24AC7002B0425 /* Main.storyboard in Resources */,
 				68BD0B4B1AA24AC7002B0425 /* LaunchScreen.xib in Resources */,
 				68BD0B481AA24AC7002B0425 /* Images.xcassets in Resources */,
+				5EBC73C41AA260A900BA8D29 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,9 +442,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pursuit",
 				);
 				INFOPLIST_FILE = Pursuit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -416,9 +458,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pursuit",
 				);
 				INFOPLIST_FILE = Pursuit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

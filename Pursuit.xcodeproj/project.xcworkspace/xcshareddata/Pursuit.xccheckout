@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FDD6CFAC-E3AC-42B3-9521-71E0ABA50F94</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pursuit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DBB7E8E963C538F7F2E8C9C25EC040E61C294112</key>
+		<string>github.com:gruan/Pursuit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pursuit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DBB7E8E963C538F7F2E8C9C25EC040E61C294112</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:gruan/Pursuit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DBB7E8E963C538F7F2E8C9C25EC040E61C294112</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DBB7E8E963C538F7F2E8C9C25EC040E61C294112</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pursuit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
