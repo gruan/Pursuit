@@ -13,6 +13,12 @@
 		5EBC73D21AA2613000BA8D29 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73D11AA2613000BA8D29 /* libicucore.dylib */; };
 		5EBC73DD1AA26EF700BA8D29 /* MapControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC73DC1AA26EF700BA8D29 /* MapControllerView.m */; };
 		5EBC73DF1AA2738800BA8D29 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73DE1AA2738800BA8D29 /* MapKit.framework */; };
+		68A7E8DB1AA28CB5005C12B3 /* ProfileControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A7E8DA1AA28CB5005C12B3 /* ProfileControllerView.m */; };
+		68A7E8E11AA291CF005C12B3 /* padlock_closed_inv.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8DD1AA291CF005C12B3 /* padlock_closed_inv.png */; };
+		68A7E8E21AA291CF005C12B3 /* pursuit_logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8DE1AA291CF005C12B3 /* pursuit_logo.gif */; };
+		68A7E8E31AA291CF005C12B3 /* userpicstuff.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8DF1AA291CF005C12B3 /* userpicstuff.gif */; };
+		68A7E8E41AA291CF005C12B3 /* whitePur.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8E01AA291CF005C12B3 /* whitePur.gif */; };
+		68A7E8E61AA2946F005C12B3 /* whiteline.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8E51AA2946F005C12B3 /* whiteline.png */; };
 		68BD0B3A1AA24AC7002B0425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0B391AA24AC7002B0425 /* main.m */; };
 		68BD0B3D1AA24AC7002B0425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0B3C1AA24AC7002B0425 /* AppDelegate.m */; };
 		68BD0B401AA24AC7002B0425 /* Pursuit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0B3E1AA24AC7002B0425 /* Pursuit.xcdatamodeld */; };
@@ -58,6 +64,13 @@
 		5EBC73DB1AA26ED300BA8D29 /* MapControllerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapControllerView.h; sourceTree = "<group>"; };
 		5EBC73DC1AA26EF700BA8D29 /* MapControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapControllerView.m; sourceTree = "<group>"; };
 		5EBC73DE1AA2738800BA8D29 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		68A7E8DA1AA28CB5005C12B3 /* ProfileControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileControllerView.m; sourceTree = "<group>"; };
+		68A7E8DC1AA28CC6005C12B3 /* ProfileControllerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileControllerView.h; sourceTree = "<group>"; };
+		68A7E8DD1AA291CF005C12B3 /* padlock_closed_inv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padlock_closed_inv.png; sourceTree = "<group>"; };
+		68A7E8DE1AA291CF005C12B3 /* pursuit_logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pursuit_logo.gif; sourceTree = "<group>"; };
+		68A7E8DF1AA291CF005C12B3 /* userpicstuff.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = userpicstuff.gif; sourceTree = "<group>"; };
+		68A7E8E01AA291CF005C12B3 /* whitePur.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whitePur.gif; sourceTree = "<group>"; };
+		68A7E8E51AA2946F005C12B3 /* whiteline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteline.png; sourceTree = "<group>"; };
 		68BD0B341AA24AC7002B0425 /* Pursuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pursuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BD0B381AA24AC7002B0425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68BD0B391AA24AC7002B0425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -149,8 +162,10 @@
 		68BD0B361AA24AC7002B0425 /* Pursuit */ = {
 			isa = PBXGroup;
 			children = (
-				5EBC73DC1AA26EF700BA8D29 /* MapControllerView.m */,
 				5EBC73DB1AA26ED300BA8D29 /* MapControllerView.h */,
+				5EBC73DC1AA26EF700BA8D29 /* MapControllerView.m */,
+				68A7E8DC1AA28CC6005C12B3 /* ProfileControllerView.h */,
+				68A7E8DA1AA28CB5005C12B3 /* ProfileControllerView.m */,
 				68BD0B3B1AA24AC7002B0425 /* AppDelegate.h */,
 				68BD0B3C1AA24AC7002B0425 /* AppDelegate.m */,
 				68BD0B411AA24AC7002B0425 /* LoginControllerView.h */,
@@ -214,6 +229,11 @@
 		68BD0B7A1AA267CA002B0425 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				68A7E8DD1AA291CF005C12B3 /* padlock_closed_inv.png */,
+				68A7E8E51AA2946F005C12B3 /* whiteline.png */,
+				68A7E8DE1AA291CF005C12B3 /* pursuit_logo.gif */,
+				68A7E8DF1AA291CF005C12B3 /* userpicstuff.gif */,
+				68A7E8E01AA291CF005C12B3 /* whitePur.gif */,
 				68BD0B7B1AA267E1002B0425 /* checkbox-checked.png */,
 				68BD0B7C1AA267E1002B0425 /* checkbox-pressed.png */,
 				68BD0B7D1AA267E1002B0425 /* checkbox.png */,
@@ -301,11 +321,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A7E8E21AA291CF005C12B3 /* pursuit_logo.gif in Resources */,
 				68BD0B461AA24AC7002B0425 /* Main.storyboard in Resources */,
+				68A7E8E31AA291CF005C12B3 /* userpicstuff.gif in Resources */,
 				68BD0B4B1AA24AC7002B0425 /* LaunchScreen.xib in Resources */,
 				68BD0B7E1AA267E1002B0425 /* checkbox-checked.png in Resources */,
+				68A7E8E11AA291CF005C12B3 /* padlock_closed_inv.png in Resources */,
 				68BD0B481AA24AC7002B0425 /* Images.xcassets in Resources */,
 				68BD0B7F1AA267E1002B0425 /* checkbox-pressed.png in Resources */,
+				68A7E8E41AA291CF005C12B3 /* whitePur.gif in Resources */,
+				68A7E8E61AA2946F005C12B3 /* whiteline.png in Resources */,
 				68BD0B801AA267E1002B0425 /* checkbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +353,7 @@
 				68BD0B401AA24AC7002B0425 /* Pursuit.xcdatamodeld in Sources */,
 				68BD0B3D1AA24AC7002B0425 /* AppDelegate.m in Sources */,
 				68BD0B431AA24AC7002B0425 /* LoginControllerView.m in Sources */,
+				68A7E8DB1AA28CB5005C12B3 /* ProfileControllerView.m in Sources */,
 				5EBC73DD1AA26EF700BA8D29 /* MapControllerView.m in Sources */,
 				68BD0B3A1AA24AC7002B0425 /* main.m in Sources */,
 			);
