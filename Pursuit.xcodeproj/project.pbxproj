@@ -19,6 +19,10 @@
 		68A7E8E31AA291CF005C12B3 /* userpicstuff.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8DF1AA291CF005C12B3 /* userpicstuff.gif */; };
 		68A7E8E41AA291CF005C12B3 /* whitePur.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8E01AA291CF005C12B3 /* whitePur.gif */; };
 		68A7E8E61AA2946F005C12B3 /* whiteline.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8E51AA2946F005C12B3 /* whiteline.png */; };
+		68A7E8E81AA2CB3B005C12B3 /* NullProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8E71AA2CB3B005C12B3 /* NullProfile.png */; };
+		68A7E8EA1AA2CB4C005C12B3 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8E91AA2CB4C005C12B3 /* Profile.png */; };
+		68A7E8EC1AA2CB97005C12B3 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A7E8EB1AA2CB97005C12B3 /* frame.png */; };
+		68A7E8EF1AA2E043005C12B3 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A7E8EE1AA2E043005C12B3 /* Users.m */; };
 		68BD0B3A1AA24AC7002B0425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0B391AA24AC7002B0425 /* main.m */; };
 		68BD0B3D1AA24AC7002B0425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0B3C1AA24AC7002B0425 /* AppDelegate.m */; };
 		68BD0B401AA24AC7002B0425 /* Pursuit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0B3E1AA24AC7002B0425 /* Pursuit.xcdatamodeld */; };
@@ -71,6 +75,11 @@
 		68A7E8DF1AA291CF005C12B3 /* userpicstuff.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = userpicstuff.gif; sourceTree = "<group>"; };
 		68A7E8E01AA291CF005C12B3 /* whitePur.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whitePur.gif; sourceTree = "<group>"; };
 		68A7E8E51AA2946F005C12B3 /* whiteline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteline.png; sourceTree = "<group>"; };
+		68A7E8E71AA2CB3B005C12B3 /* NullProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NullProfile.png; sourceTree = "<group>"; };
+		68A7E8E91AA2CB4C005C12B3 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+		68A7E8EB1AA2CB97005C12B3 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		68A7E8ED1AA2E043005C12B3 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		68A7E8EE1AA2E043005C12B3 /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
 		68BD0B341AA24AC7002B0425 /* Pursuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pursuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BD0B381AA24AC7002B0425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68BD0B391AA24AC7002B0425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -162,6 +171,8 @@
 		68BD0B361AA24AC7002B0425 /* Pursuit */ = {
 			isa = PBXGroup;
 			children = (
+				68A7E8ED1AA2E043005C12B3 /* Users.h */,
+				68A7E8EE1AA2E043005C12B3 /* Users.m */,
 				5EBC73DB1AA26ED300BA8D29 /* MapControllerView.h */,
 				5EBC73DC1AA26EF700BA8D29 /* MapControllerView.m */,
 				68A7E8DC1AA28CC6005C12B3 /* ProfileControllerView.h */,
@@ -229,6 +240,9 @@
 		68BD0B7A1AA267CA002B0425 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				68A7E8EB1AA2CB97005C12B3 /* frame.png */,
+				68A7E8E91AA2CB4C005C12B3 /* Profile.png */,
+				68A7E8E71AA2CB3B005C12B3 /* NullProfile.png */,
 				68A7E8DD1AA291CF005C12B3 /* padlock_closed_inv.png */,
 				68A7E8E51AA2946F005C12B3 /* whiteline.png */,
 				68A7E8DE1AA291CF005C12B3 /* pursuit_logo.gif */,
@@ -323,6 +337,7 @@
 			files = (
 				68A7E8E21AA291CF005C12B3 /* pursuit_logo.gif in Resources */,
 				68BD0B461AA24AC7002B0425 /* Main.storyboard in Resources */,
+				68A7E8EA1AA2CB4C005C12B3 /* Profile.png in Resources */,
 				68A7E8E31AA291CF005C12B3 /* userpicstuff.gif in Resources */,
 				68BD0B4B1AA24AC7002B0425 /* LaunchScreen.xib in Resources */,
 				68BD0B7E1AA267E1002B0425 /* checkbox-checked.png in Resources */,
@@ -331,6 +346,8 @@
 				68BD0B7F1AA267E1002B0425 /* checkbox-pressed.png in Resources */,
 				68A7E8E41AA291CF005C12B3 /* whitePur.gif in Resources */,
 				68A7E8E61AA2946F005C12B3 /* whiteline.png in Resources */,
+				68A7E8EC1AA2CB97005C12B3 /* frame.png in Resources */,
+				68A7E8E81AA2CB3B005C12B3 /* NullProfile.png in Resources */,
 				68BD0B801AA267E1002B0425 /* checkbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68BD0B831AA2768F002B0425 /* SignupControllerView.m in Sources */,
+				68A7E8EF1AA2E043005C12B3 /* Users.m in Sources */,
 				68BD0B401AA24AC7002B0425 /* Pursuit.xcdatamodeld in Sources */,
 				68BD0B3D1AA24AC7002B0425 /* AppDelegate.m in Sources */,
 				68BD0B431AA24AC7002B0425 /* LoginControllerView.m in Sources */,

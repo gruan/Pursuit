@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 TeamGeorgie. All rights reserved.
 //
 #import <UIKit/UIKit.h>
+#import "Users.h"
+#import <Parse/Parse.h>
 
 #ifndef Pursuit_SignupControllerView_h
 #define Pursuit_SignupControllerView_h
@@ -14,11 +16,16 @@
 {
     
 }
-@property (weak, nonatomic) IBOutlet UITextField *username;
-@property (weak, nonatomic) IBOutlet UITextField *password;
-@property (weak, nonatomic) IBOutlet UITextField *firstname;
-@property (weak, nonatomic) IBOutlet UITextField *lastname;
-- (IBAction)Done:(id)sender;
+@property (strong, nonatomic) Users *SignUser;
+
+@property (strong, nonatomic) IBOutlet UITextField *username;
+@property (strong, nonatomic) IBOutlet UITextField *password;
+@property (strong, nonatomic) IBOutlet UITextField *birthday;
+@property (strong, nonatomic) IBOutlet UITextField *gender;
+@property (strong, nonatomic) IBOutlet UITextField *phone;
+@property (strong, nonatomic) IBOutlet UITextField *Location;
+
+
 - (IBAction)Cancel:(id)sender;
 
 

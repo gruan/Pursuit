@@ -8,33 +8,41 @@
 #import "SignupControllerView.h"
 #import <Parse/Parse.h>
 #import <Foundation/Foundation.h>
+#import "Users.h"
 @interface SignupControllerView()
 
 @end
 
 @implementation SignupControllerView
-@synthesize username,password,firstname,lastname;
+@synthesize username,password,birthday,gender,phone,Location,SignUser;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
-- (IBAction)Done:(id)sender {
-    [self SignUpPursuit];
-    [self dismissViewControllerAnimated:YES completion:NULL];
-    
 }
 - (IBAction)Cancel:(id)sender {
     [self dismissViewControllerAnimated:YES completion:NULL];
     
 }
-- (void)SignUpPursuit {
+- (IBAction)Next:(id)sender {
     PFUser *user = [PFUser user];
     user.username = username.text;
     user.password = password.text;
     // other fields can be set just like with PFObject
-    user[@"Firstname"] = firstname.text;
-    user[@"Lastname"] = lastname.text;
-    
+    user[@"Firstname"] = @"";
+    user[@"Lastname"] = @"";
+    user[@"GPA"]=@"";
+    user[@"Company"]=@"";
+    user[@"Years"]=@"";
+    user[@"Birthday"]=birthday.text;
+    user[@"Gender"]=gender.text;
+    user[@"Skill1"]=@"";
+    user[@"Skill2"]=@"";
+    user[@"Skill3"]=@"";
+    user[@"Phone"]=phone.text;
+    user[@"Major"]=@"";
+    user[@"School"]=@"";
+    user[@"Degree"]=@"";
+    user[@"Location"]=Location.text;
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             // Hooray! Let them use the app now.
@@ -43,5 +51,7 @@
             // Show the errorString somewhere and let the user try again.
         }
     }];
+    [self dismissViewControllerAnimated:YES completion:NULL];
+    
 }
 @end
