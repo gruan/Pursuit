@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E5CFAB01AA2AC7C00C73757 /* Map_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5CFAAF1AA2AC7C00C73757 /* Map_Button.png */; };
 		5EBC73C61AA260CD00BA8D29 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73C51AA260CD00BA8D29 /* AVFoundation.framework */; };
 		5EBC73CE1AA2611A00BA8D29 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73CD1AA2611A00BA8D29 /* ImageIO.framework */; };
 		5EBC73D01AA2612800BA8D29 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC73CF1AA2612800BA8D29 /* libc++.dylib */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E5CFAAF1AA2AC7C00C73757 /* Map_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_Button.png; sourceTree = "<group>"; };
 		5EBC73C51AA260CD00BA8D29 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5EBC73CD1AA2611A00BA8D29 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		5EBC73CF1AA2612800BA8D29 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
@@ -240,9 +242,13 @@
 		68BD0B7A1AA267CA002B0425 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				68A7E8EB1AA2CB97005C12B3 /* frame.png */,
 				68A7E8E91AA2CB4C005C12B3 /* Profile.png */,
 				68A7E8E71AA2CB3B005C12B3 /* NullProfile.png */,
+=======
+				5E5CFAAF1AA2AC7C00C73757 /* Map_Button.png */,
+>>>>>>> 965ee94cc4d4c23a60d7664fbba0f504d989e908
 				68A7E8DD1AA291CF005C12B3 /* padlock_closed_inv.png */,
 				68A7E8E51AA2946F005C12B3 /* whiteline.png */,
 				68A7E8DE1AA291CF005C12B3 /* pursuit_logo.gif */,
@@ -337,7 +343,11 @@
 			files = (
 				68A7E8E21AA291CF005C12B3 /* pursuit_logo.gif in Resources */,
 				68BD0B461AA24AC7002B0425 /* Main.storyboard in Resources */,
+<<<<<<< HEAD
 				68A7E8EA1AA2CB4C005C12B3 /* Profile.png in Resources */,
+=======
+				5E5CFAB01AA2AC7C00C73757 /* Map_Button.png in Resources */,
+>>>>>>> 965ee94cc4d4c23a60d7664fbba0f504d989e908
 				68A7E8E31AA291CF005C12B3 /* userpicstuff.gif in Resources */,
 				68BD0B4B1AA24AC7002B0425 /* LaunchScreen.xib in Resources */,
 				68BD0B7E1AA267E1002B0425 /* checkbox-checked.png in Resources */,
